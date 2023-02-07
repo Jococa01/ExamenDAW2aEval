@@ -11,7 +11,7 @@ jobs:
       - name: PHPUnit Tests
         uses: php-actions/phpunit@v1
         env:
-          TEST_NAME: numeroTest
+          TEST_NAME: enanaTest
         with:
           configuration: test/phpunit.xml
           args: --coverage-text
