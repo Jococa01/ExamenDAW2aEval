@@ -39,7 +39,7 @@ class EnanaTest extends TestCase {
         #Se probará el efecto de administrar una pócima a una Enana muerta pero con una vida mayor que -10 y menor que 0
         #Se tendrá que probar que la vida es mayor que 0 y que su situación ha cambiado a viva
         $objeto = new Enana('Enana', -5,'muerta');
-        $this->assertEquals(5, $objeto->heridaGrave());
+        $this->assertEquals(5, $objeto->pocima());
         $this->assertEquals('viva', $objeto->checkSituacion());
 
     }
